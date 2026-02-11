@@ -1,0 +1,31 @@
+@import '../../css/fonts.css';
+
+.button {
+  border-radius: 16px;
+  border-color: #E5E7EB;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  label {
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-md);
+    color: var(--header-label-color);
+    display: flex;
+    align-items: center;
+  }
+}
+
+.button:hover {
+  transition: transform 160ms ease;
+  transform: scale(1.04);
+  box-shadow: 0 6px 16px rgba(0,0,0,.15);
+}
+
+.img {
+  width: 13px;
+  height: 13px;
+  padding: 8px;
+}
