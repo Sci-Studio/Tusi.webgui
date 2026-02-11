@@ -1,9 +1,9 @@
 import React from 'react';
+import styles from './ToolSettingsTree.module.css';
 
 const ToolSettingsTree: React.FC = () => {
     return (
-        <div>
-            <h1>Tool Settings Tree</h1>
+        <div className={styles.container}>
         </div>
     );
 };

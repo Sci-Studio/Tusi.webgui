@@ -3,12 +3,14 @@
     --toolbar-background: #3C3C3C;
     --edit-tree-background: #2E2E2E;
     --display-background: #1E1E1E;
+    --tool-settings-background: #2E2E2E;
 
     /* border colors */
     --toolbar-border: #4B5563;
     --edit-tree-border: #4B5563;
     --display-border: #4B5563;
-    
+    --tool-settings-border: #4B5563;
+
     /* text colors */
     --header-label-color: #FFFFFF;
 }
