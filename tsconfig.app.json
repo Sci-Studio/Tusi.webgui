@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "types": ["vite/client"],
+        "esModuleInterop": true,
+        /* Bundler mode */
+        "jsx": "react-jsx",
+    },
+   "include": ["src"] 
+}
