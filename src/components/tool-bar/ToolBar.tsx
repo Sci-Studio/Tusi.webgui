@@ -5,15 +5,13 @@ import Open from '../../assets/svg/open.svg';
 
 export default function() {
     return (
-        <main>
-            <div className={styles.container}>
-                <div className={styles.fileContainer}>
-                    <PushButton imageUrl={Open} text='Open'/>
-                </div>
-                <div className={styles.helpContainer}>
-                   <PushButton imageUrl={help} text=''/>
-                </div>
+        <div className={styles.container}>
+            <div className={styles.fileContainer}>
+                <PushButton imageUrl={Open} text='Open'/>
             </div>
-        </main>
+            <div className={styles.helpContainer}>
+               <PushButton imageUrl={help} text=''/>
+            </div>
+        </div>
     )
 }
