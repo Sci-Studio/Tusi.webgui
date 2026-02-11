@@ -1,0 +1,9 @@
+@import '../../css/colors.css';
+
+.container {
+    width: 1024px;
+    height: 740px;
+    background-color: var(--display-background);
+    border-color: var(--display-border);
+    border: 1px solid;
+}

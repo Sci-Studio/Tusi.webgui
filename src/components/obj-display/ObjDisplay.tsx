@@ -1,9 +1,9 @@
 import React from 'react';
+import styles from './ObjDisplay.module.css';
 
 const ObjDisplay: React.FC = () => {
     return (
-        <div>
-            <h1>Object Display Component</h1>
+        <div className={styles.container}>
         </div>
     );
 };
