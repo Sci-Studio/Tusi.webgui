@@ -1,10 +1,11 @@
 import React from 'react';
-
+import EditTree from '../edit-tree/EditTree';
+import styles from './MainWindow.module.css';
 
 const MainWindow: React.FC = () => {
     return (
-        <div>
-            <h1>Welcome to the Main Window</h1>
+        <div className={styles.mainWindow}>
+            <EditTree />
         </div>
     );
 };

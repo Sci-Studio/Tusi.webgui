@@ -1,0 +1,9 @@
+@import '../../css/colors.css';
+
+.container {
+    width: 64px;
+    height: 100%;
+    background-color: var(--edit-tree-background);
+    border-color: var(--edit-tree-border);
+    border: 1px solid;
+}

@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './EditTree.module.css';
 
 const EditTree: React.FC = (): React.ReactElement => {
     return (
-        <div>
-            <h1>Edit Tree Component</h1>
+        <div className={styles.container}>
+            
         </div>
     );
 };
